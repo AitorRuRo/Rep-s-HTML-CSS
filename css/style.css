@@ -1,0 +1,95 @@
+
+.w100{
+    width: 100%;
+}
+.w75{
+    width: 75%;
+}
+.w50{
+    width: 50%;
+}
+.w25{
+    width: 25%;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.Menu p{
+    color: #ffffff;
+    background-color: #000000;
+    border: #aaaaaa 1px solid;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.Menu p:hover{
+    background-color: aquamarine;
+    color: #000000;
+}
+
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ul{
+    display: flex;
+}
+
+#Container{
+    border: blue 2px solid;
+    padding: 15px;
+}
+#Container aside{
+    border: greenyellow 2px solid;
+    padding: 15px;
+}
+#Container main{
+    border: brown 2px solid;
+    padding: 15px;
+}
+#Container main article{
+    border: purple 2px solid;
+    padding: 15px;
+}
+#Container main article h2, #Container main article p{
+    border: greenyellow 2px solid;
+}
+
+#Container{
+    margin-top: 75px;
+}
+
+menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    margin: 0;
+    padding: 0px;
+}
+menu ul{
+    list-style: none;
+    padding: 0px;
+}
+menu a{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.5s;
+}
+menu a:hover{
+    color: red;
+}
+
+#sempre_visible{
+    background-color: green;
+    width: 15%;
+    border-radius: 15px;
+    bottom: 150px;
+    position: fixed;
+}
